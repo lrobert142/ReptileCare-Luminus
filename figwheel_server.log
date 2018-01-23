@@ -372,3 +372,179 @@ notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_car
 [0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.114 seconds.[0m
 notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/events.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.964 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/views.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.775 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.304 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.348 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.55 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.455 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.589 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.692 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.338 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.427 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.39 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/views.cljs   line:7 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+
+  [36m 5[0m  [36m(defn nav-link [uri title page][0m
+  [36m 6[0m  [36m  [:li.nav-item[0m
+  [33m 7[0m  [1m   {:class (when (= page @(rf/subscribe [::db/page])) "active")}[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/views.cljs [line 7, col 51] Invalid keyword: ::db/page.[0m
+  [36m 8[0m  [36m   [:a.nav-link {:href uri} title]])[0m
+  [36m 9[0m  [36m[0m
+  [36m10[0m  [36m(defn navbar [][0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/views.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.066 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/views.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.876 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.05 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/home/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.87 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.191 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/home/views.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/home/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.873 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/home/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.861 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/home/views.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.905 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/home/views.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.872 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/views.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.917 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js

@@ -14,12 +14,7 @@
 (secretary/defroute "/" []
                     (rf/dispatch [::db/set-active-page :home]))
 
-(secretary/defroute "/about" []
-                    (rf/dispatch [::db/set-active-page :about]))
-
-;; -------------------------
-;; History
-;; must be called after routes have been defined
+; Browser History Handler
 (defn hook-browser-navigation! []
   (doto (History.)
     (events/listen
