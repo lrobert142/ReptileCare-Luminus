@@ -1,32 +1,14 @@
 (ns reptile-care.events
-  (:require [reptile-care.db :as db]
-            [re-frame.core :refer [dispatch reg-event-db reg-sub]]))
-
-;;dispatchers
+  (:require
+    [re-frame.core :refer [dispatch reg-event-db reg-sub]]
+    [reptile-care.db :as db]))
 
 (reg-event-db
-  :initialize-db
+  ::db/initialize-db
   (fn [_ _]
     db/default-db))
 
 (reg-event-db
-  :set-active-page
+  ::db/set-active-page
   (fn [db [_ page]]
     (assoc db :page page)))
-
-(reg-event-db
-  :set-docs
-  (fn [db [_ docs]]
-    (assoc db :docs docs)))
-
-;;subscriptions
-
-(reg-sub
-  :page
-  (fn [db _]
-    (:page db)))
-
-(reg-sub
-  :docs
-  (fn [db _]
-    (:docs db)))

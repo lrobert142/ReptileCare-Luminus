@@ -1,3 +1,374 @@
 Notifying browser that CSS file changed: resources/public/css/screen.css
 Notifying browser that CSS file changed: resources/public/css/screen.css
 Notifying browser that CSS file changed: resources/public/css/screen.css
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.166 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.252 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.068 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/subs.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.058 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/events.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/subs.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.449 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/core.cljs   line:52 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/core.cljs [line 52, col 37] Invalid keyword: ::db/page.[0m
+
+  [36m50[0m  [36m  [:div[0m
+  [36m51[0m  [36m   [navbar][0m
+  [33m52[0m  [1m   [(pages @(rf/subscribe [::db/page]))]])[0m
+  [0m  [0m  [33m   /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/core.cljs [line 52, col 37] Invalid keyword: ::db/page.[0m
+  [36m53[0m  [36m[0m
+  [36m54[0m  [36m;; -------------------------[0m
+  [36m55[0m  [36m;; Routes[0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.378 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/core.cljs   line:59 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/core.cljs [line 59, col 37] Invalid keyword: ::db/set-active-page.[0m
+
+  [36m58[0m  [36m(secretary/defroute "/" [][0m
+  [33m59[0m  [1m  (rf/dispatch [::db/set-active-page :home]))[0m
+  [0m  [0m  [33m  /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/core.cljs [line 59, col 37] Invalid keyword: ::db/set-active-page.[0m
+  [36m60[0m  [36m[0m
+  [36m61[0m  [36m(secretary/defroute "/about" [][0m
+  [36m62[0m  [36m  (rf/dispatch [::db/set-active-page :about]))[0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/core.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.938 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.968 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.027 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.163 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.841 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.254 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/events.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/subs.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.301 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.474 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/routes.cljs   line:9 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/routes.cljs [line 9, col 55] Invalid keyword: ::db/set-active-page.[0m
+
+  [36m 8[0m  [36m(secretary/defroute "/" [][0m
+  [33m 9[0m  [1m                    (rf/dispatch [::db/set-active-page :home]))[0m
+  [0m  [0m  [33m                    /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/routes.cljs [line 9, col 55] Invalid keyword: ::db/set-active-page.[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(secretary/defroute "/about" [][0m
+  [36m12[0m  [36m                    (rf/dispatch [::db/set-active-page :about]))[0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.489 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/routes.cljs   line:9 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/routes.cljs [line 9, col 55] Invalid keyword: ::db/set-active-page.[0m
+
+  [36m 8[0m  [36m(secretary/defroute "/" [][0m
+  [33m 9[0m  [1m                    (rf/dispatch [::db/set-active-page :home]))[0m
+  [0m  [0m  [33m                    /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/routes.cljs [line 9, col 55] Invalid keyword: ::db/set-active-page.[0m
+  [36m10[0m  [36m[0m
+  [36m11[0m  [36m(secretary/defroute "/about" [][0m
+  [36m12[0m  [36m                    (rf/dispatch [::db/set-active-page :about]))[0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.339 seconds.[0m
+[36m----  Could not Read  src/cljs/reptile_care/routes.cljs   line:11 ----[0m
+
+  [1m/Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/routes.cljs [line 11, col 55] Invalid keyword: ::db/set-active-page.[0m
+
+  [36m10[0m  [36m(secretary/defroute "/" [][0m
+  [33m11[0m  [1m                    (rf/dispatch [::db/set-active-page :home]))[0m
+  [0m  [0m  [33m                    /Users/lachlanrobertson/dev/reptile-care/src/cljs/reptile_care/routes.cljs [line 11, col 55] Invalid keyword: ::db/set-active-page.[0m
+  [36m12[0m  [36m[0m
+  [36m13[0m  [36m(secretary/defroute "/about" [][0m
+  [36m14[0m  [36m                    (rf/dispatch [::db/set-active-page :about]))[0m
+
+[36m----  Reader Error : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:21  column:9  ----[0m
+
+  [1mUse of undeclared Var reptile-care.routes/History[0m
+
+  [36m17[0m  [36m;; -------------------------[0m
+  [36m18[0m  [36m;; History[0m
+  [36m19[0m  [36m;; must be called after routes have been defined[0m
+  [36m20[0m  [36m(defn hook-browser-navigation! [][0m
+  [33m21[0m  [1m  (doto (History.)[0m
+  [0m  [0m  [33m        ^--- Use of undeclared Var reptile-care.routes/History[0m
+  [36m22[0m  [36m    (events/listen[0m
+  [36m23[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m24[0m  [36m      (fn [event][0m
+  [36m25[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m26[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:21  column:9  ----[0m
+
+  [1mUse of undeclared Var reptile-care.routes/History[0m
+
+  [36m17[0m  [36m;; -------------------------[0m
+  [36m18[0m  [36m;; History[0m
+  [36m19[0m  [36m;; must be called after routes have been defined[0m
+  [36m20[0m  [36m(defn hook-browser-navigation! [][0m
+  [33m21[0m  [1m  (doto (History.)[0m
+  [0m  [0m  [33m        ^--- Use of undeclared Var reptile-care.routes/History[0m
+  [36m22[0m  [36m    (events/listen[0m
+  [36m23[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m24[0m  [36m      (fn [event][0m
+  [36m25[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m26[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:22  column:6  ----[0m
+
+  [1mNo such namespace: events, could not locate events.cljs, events.cljc, or JavaScript source providing "events"[0m
+
+  [36m18[0m  [36m;; History[0m
+  [36m19[0m  [36m;; must be called after routes have been defined[0m
+  [36m20[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m21[0m  [36m  (doto (History.)[0m
+  [33m22[0m  [1m    (events/listen[0m
+  [0m  [0m  [33m     ^--- No such namespace: events, could not locate events.cljs, events.cljc, or JavaScript source providing "events"[0m
+  [36m23[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m24[0m  [36m      (fn [event][0m
+  [36m25[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m26[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:22  column:6  ----[0m
+
+  [1mUse of undeclared Var events/listen[0m
+
+  [36m18[0m  [36m;; History[0m
+  [36m19[0m  [36m;; must be called after routes have been defined[0m
+  [36m20[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m21[0m  [36m  (doto (History.)[0m
+  [33m22[0m  [1m    (events/listen[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var events/listen[0m
+  [36m23[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m24[0m  [36m      (fn [event][0m
+  [36m25[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m26[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:23  column:7  ----[0m
+
+  [1mNo such namespace: HistoryEventType, could not locate HistoryEventType.cljs, HistoryEventType.cljc, or JavaScript source providing "HistoryEventType"[0m
+
+  [36m19[0m  [36m;; must be called after routes have been defined[0m
+  [36m20[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m21[0m  [36m  (doto (History.)[0m
+  [36m22[0m  [36m    (events/listen[0m
+  [33m23[0m  [1m      HistoryEventType/NAVIGATE[0m
+  [0m  [0m  [33m      ^--- No such namespace: HistoryEventType, could not locate HistoryEventType.cljs, HistoryEventType.cljc, or JavaScript source providing "HistoryEventType"[0m
+  [36m24[0m  [36m      (fn [event][0m
+  [36m25[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m26[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:23  column:7  ----[0m
+
+  [1mUse of undeclared Var HistoryEventType/NAVIGATE[0m
+
+  [36m19[0m  [36m;; must be called after routes have been defined[0m
+  [36m20[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m21[0m  [36m  (doto (History.)[0m
+  [36m22[0m  [36m    (events/listen[0m
+  [33m23[0m  [1m      HistoryEventType/NAVIGATE[0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var HistoryEventType/NAVIGATE[0m
+  [36m24[0m  [36m      (fn [event][0m
+  [36m25[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m26[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.148 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:23  column:6  ----[0m
+
+  [1mNo such namespace: events, could not locate events.cljs, events.cljc, or JavaScript source providing "events"[0m
+
+  [36m19[0m  [36m;; History[0m
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [33m23[0m  [1m    (events/listen[0m
+  [0m  [0m  [33m     ^--- No such namespace: events, could not locate events.cljs, events.cljc, or JavaScript source providing "events"[0m
+  [36m24[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:23  column:6  ----[0m
+
+  [1mUse of undeclared Var events/listen[0m
+
+  [36m19[0m  [36m;; History[0m
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [33m23[0m  [1m    (events/listen[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var events/listen[0m
+  [36m24[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:24  column:7  ----[0m
+
+  [1mNo such namespace: HistoryEventType, could not locate HistoryEventType.cljs, HistoryEventType.cljc, or JavaScript source providing "HistoryEventType"[0m
+
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [36m23[0m  [36m    (events/listen[0m
+  [33m24[0m  [1m      HistoryEventType/NAVIGATE[0m
+  [0m  [0m  [33m      ^--- No such namespace: HistoryEventType, could not locate HistoryEventType.cljs, HistoryEventType.cljc, or JavaScript source providing "HistoryEventType"[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:24  column:7  ----[0m
+
+  [1mUse of undeclared Var HistoryEventType/NAVIGATE[0m
+
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [36m23[0m  [36m    (events/listen[0m
+  [33m24[0m  [1m      HistoryEventType/NAVIGATE[0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var HistoryEventType/NAVIGATE[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.011 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:23  column:6  ----[0m
+
+  [1mNo such namespace: events, could not locate events.cljs, events.cljc, or JavaScript source providing "events"[0m
+
+  [36m19[0m  [36m;; History[0m
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [33m23[0m  [1m    (events/listen[0m
+  [0m  [0m  [33m     ^--- No such namespace: events, could not locate events.cljs, events.cljc, or JavaScript source providing "events"[0m
+  [36m24[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:23  column:6  ----[0m
+
+  [1mUse of undeclared Var events/listen[0m
+
+  [36m19[0m  [36m;; History[0m
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [33m23[0m  [1m    (events/listen[0m
+  [0m  [0m  [33m     ^--- Use of undeclared Var events/listen[0m
+  [36m24[0m  [36m      HistoryEventType/NAVIGATE[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:24  column:7  ----[0m
+
+  [1mNo such namespace: HistoryEventType, could not locate HistoryEventType.cljs, HistoryEventType.cljc, or JavaScript source providing "HistoryEventType"[0m
+
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [36m23[0m  [36m    (events/listen[0m
+  [33m24[0m  [1m      HistoryEventType/NAVIGATE[0m
+  [0m  [0m  [33m      ^--- No such namespace: HistoryEventType, could not locate HistoryEventType.cljs, HistoryEventType.cljc, or JavaScript source providing "HistoryEventType"[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/reptile_care/routes.cljs   line:24  column:7  ----[0m
+
+  [1mUse of undeclared Var HistoryEventType/NAVIGATE[0m
+
+  [36m20[0m  [36m;; must be called after routes have been defined[0m
+  [36m21[0m  [36m(defn hook-browser-navigation! [][0m
+  [36m22[0m  [36m  (doto (History.)[0m
+  [36m23[0m  [36m    (events/listen[0m
+  [33m24[0m  [1m      HistoryEventType/NAVIGATE[0m
+  [0m  [0m  [33m      ^--- Use of undeclared Var HistoryEventType/NAVIGATE[0m
+  [36m25[0m  [36m      (fn [event][0m
+  [36m26[0m  [36m        (secretary/dispatch! (.-token event))))[0m
+  [36m27[0m  [36m    (.setEnabled true)))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/reptile_care/routes.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.023 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.915 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.892 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.908 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.228 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.861 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/routes.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.842 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/core.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.114 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/reptile_care/events.js
